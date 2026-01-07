@@ -167,7 +167,7 @@ export function getProjects(): Project[] {
       title: 'Portfolio',
       cover: '/portfolio.png?height=200&width=300',
       link: 'https://kri11.vercel.app/',
-      githubLink: 'https://github.com/Farabiislam/Rashidul-islam',
+      githubLink: 'https://github.com/Farabiislam/KRI11',
       description:
         'A beautiful portfolio website to showcase my projects, articles, expericences and others in one place.',
       technologies: ['Next.js', 'React', 'Tailwind CSS', 'Shadcn'],

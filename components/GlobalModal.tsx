@@ -33,7 +33,7 @@ const quickActionList = [
     text: 'Copy Portfolio Link',
     icon: <FiCopy />,
     type: 1,
-    textToCopy: 'https://krix.vercel.app',
+    textToCopy: 'https://kri11.vercel.app/',
   },
   {
     text: 'Download CV',

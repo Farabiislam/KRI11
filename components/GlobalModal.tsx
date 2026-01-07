@@ -20,6 +20,7 @@ import {
 } from 'react-icons/fi';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
+import { toast } from 'sonner';
 
 // Utility for clean tailwind classes
 function cn(...inputs: ClassValue[]) {
@@ -162,7 +163,7 @@ export default function GlobalModal() {
     // Copy
     if (item.type === 1) {
       navigator.clipboard.writeText(item.textToCopy || '');
-      alert('Link Copied!');
+      toast.success('Portfolio link copied to clipboard!', { richColors: true });
     }
 
     // External link

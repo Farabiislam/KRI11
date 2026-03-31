@@ -63,7 +63,7 @@ export function getPersonalInfo(): PersonalInfo {
     description:
       'Passionate about building scalable web applications with clean architecture and design patterns. As a design pattern enthusiast, I create exceptional user experiences while maintaining robust, maintainable codebases.',
     image: '/avatar.jpg',
-    email: 'farabii099@gmail.com',
+    email: 'fkhandokar.rashidul.islam.1120@gmail.com',
     location: 'Bangladesh',
     experiencedFrom: '2022-1-1',
     keywords: [
@@ -92,7 +92,7 @@ export function getSocialLinks(): SocialLink[] {
     {
       name: 'email',
       icon: 'mail',
-      link: 'mailto:farabii099@gmail.com',
+      link: 'mailto:khandokar.rashidul.islam.1120@gmail.com',
       label: 'Email',
     },
     {

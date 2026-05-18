@@ -142,6 +142,23 @@ export function getExperiences(): Experience[] {
 export function getProjects(): Project[] {
   return [
     {
+      id: 'kriaxis',
+      title: 'Kriaxis',
+      cover: '/kriaxis.png',
+      link: 'https://kriaxis-technologies.vercel.app/',
+      description:
+        'Kriaxis Technologies is a modern full-stack software company platform built with Next.js 16, React 19, Tailwind CSS 4, Three.js, and React Three Fiber. The project combines high-performance web architecture, immersive 3D experiences, smooth motion animations, and scalable backend integration to deliver futuristic digital products, SaaS platforms, and interactive web experiences.',
+      technologies: [
+        'Next.js',
+        'Tailwind CSS',
+        'Three.js',
+        'react-three-fiber',
+        'Vercel',
+      ],
+      featured: true,
+      timeline: '2026',
+    },
+    {
       id: 'mentorMatch',
       title: 'MentorMatch',
       cover: '/mentormatch.png',

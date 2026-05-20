@@ -147,12 +147,13 @@ export function getProjects(): Project[] {
       cover: '/kriaxis.png',
       link: 'https://kriaxis-technologies.vercel.app/',
       description:
-        'Kriaxis Technologies is a modern full-stack software company platform built with Next.js 16, React 19, Tailwind CSS 4, Three.js, and React Three Fiber. The project combines high-performance web architecture, immersive 3D experiences, smooth motion animations, and scalable backend integration to deliver futuristic digital products, SaaS platforms, and interactive web experiences.',
+        'Kriaxis Technologies is a modern full-stack software company platform built with Next.js 16, React 19, Tailwind CSS 4, Framer Motion, Three.js, and React Three Fiber. The project combines high-performance web architecture, immersive 3D experiences, smooth motion animations, and scalable backend integration to deliver futuristic digital products, SaaS platforms, and interactive web experiences.',
       technologies: [
         'Next.js',
         'Tailwind CSS',
         'Three.js',
         'react-three-fiber',
+        'Framer Motion',
         'Vercel',
       ],
       featured: true,
@@ -187,7 +188,7 @@ export function getProjects(): Project[] {
       githubLink: 'https://github.com/Farabiislam/KRI11',
       description:
         'A beautiful portfolio website to showcase my projects, articles, expericences and others in one place.',
-      technologies: ['Next.js', 'React', 'Tailwind CSS', 'Shadcn'],
+      technologies: ['Next.js', 'React', 'Tailwind CSS', 'Shadcn', 'Framer Motion'],
       featured: true,
       timeline: '2025 - Present',
     },

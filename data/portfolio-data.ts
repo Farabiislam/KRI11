@@ -86,7 +86,7 @@ export function getSocialLinks(): SocialLink[] {
     {
       name: 'github',
       icon: 'github',
-      link: 'https://github.com/Farabiislam',
+      link: 'https://github.com/khandokar-rashidul-islam',
       label: 'GitHub',
     },
     {
@@ -142,8 +142,8 @@ export function getExperiences(): Experience[] {
 export function getProjects(): Project[] {
   return [
     {
-      id: 'kriaxis',
-      title: 'Kriaxis',
+      id: 'kriaxis technologies',
+      title: 'Kriaxis technologies',
       cover: '/kriaxis.png',
       link: 'https://kriaxis-technologies.vercel.app/',
       description:
